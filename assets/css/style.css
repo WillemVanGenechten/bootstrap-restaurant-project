@@ -1,11 +1,34 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
-.jumbotron{
-    background-image:url("../img/sofiya-levchenko-166260-unsplash.jpg");
-    background-size: cover;
+body {
+  background-color: #292b2c;
+  font-family: "Montserrat", sans-serif;
 }
 
-body{
-    background-color: #292b2c;
-    font-family: 'Montserrat', sans-serif;
+.jumbotron {
+  background-image: url("../img/sofiya-levchenko-166260-unsplash.jpg");
+  background-size: cover;
 }
+
+.card {
+  box-shadow: 2px 2px 20px #050202;
+}
+
+.btn {
+  background-color: lightgray;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  nav h4 {
+    font-size: 26px;
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {}
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {}
