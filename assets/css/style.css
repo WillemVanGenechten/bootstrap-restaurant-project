@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.jumbotron{
+    background-image:url("../img/sofiya-levchenko-166260-unsplash.jpg");
+    background-size: cover;
+}
+
+body{
+    background-color: #292b2c;
+    font-family: 'Montserrat', sans-serif;
+}
