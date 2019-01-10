@@ -8,6 +8,14 @@ body {
 .jumbotron {
   background-image: url("../img/sofiya-levchenko-166260-unsplash.jpg");
   background-size: cover;
+  background-position: center;
+  max-height: 100vh;
+  max-width: 100vw;
+}
+
+.card-header img{
+  max-height: 100%vh;
+  max-width: 100vw;
 }
 
 .card {
@@ -18,17 +26,23 @@ body {
   background-color: lightgray;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {}
+/* menu-pagina */
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  nav h4 {
-    font-size: 26px;
-  }
+#jtmenu {
+  background-image: url("../img/pablo-merchan-montes-772142-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  max-height: 100vh;
+  max-width: 100%;
+}
 
-  /* Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) {}
+/* foto pagina */
 
-  /* Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {}
+.pagination a.page-link{
+  background-color: #292b2c;
+  color: white;
+}
+
+#jtfoto{
+  background-image: url("../img/jumbotron\ foto.jpeg")
+}
